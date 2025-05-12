@@ -12,3 +12,11 @@ D3.js
 Front-end
 GeoJSON
 
+Prject structure:
+world-map-visualizer/
+├── index.html
+├── style.css
+├── main.js
+├── data/
+│   ├── world_1900.geojson -> placeholders
+└── README.md
