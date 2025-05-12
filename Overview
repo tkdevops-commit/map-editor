@@ -1,3 +1,14 @@
 Overview:
 
 Time-based visualiser world map is an interactive application built off D3.js that allows to explore, edit and visulise global geopolitical data across year periods. This tool is designed for educators, researchers and history enthusiast. This tool provides dynamic and visual representations of historical country borders and change over time.
+
+Features:
+Switch timelines displaying country borders
+click-zoom into any country 
+Cutomize and edit individual countrys
+
+Tech stack:
+D3.js
+Front-end
+GeoJSON
+
