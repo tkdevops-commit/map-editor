@@ -14,7 +14,8 @@ const path = d3.geoPath().projection(projection);
 // Set up color scale
 const colorScale = d3.scaleSequential(d3.interpolateViridis).domain([0, 100]);
 
-// Sample Data (replace with your data)
+// Sample Data (replace with your data) 
+// Add distributed lists
 const sampleData = [
  { country: "USA", value: 75 },
   { country: "Canada", value: 50 },
