@@ -16,6 +16,7 @@ const colorScale = d3.scaleSequential(d3.interpolateViridis).domain([0, 100]);
 
 // Sample Data (replace with your data) 
 // Add distributed lists
+// Static lists?
 const sampleData = [
  { country: "USA", value: 75 },
   { country: "Canada", value: 50 },
