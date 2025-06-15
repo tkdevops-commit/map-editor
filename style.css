@@ -51,7 +51,21 @@ body {
     transition: opacity 0.3s ease-in-out, transform 0.2s ease;
     opacity: 0;
   }
-  
+
+nav {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
   .tooltip.show {
     opacity: 1;
     transform: translateY(0); /* Smooth position transition */
