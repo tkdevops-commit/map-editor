@@ -4,19 +4,14 @@ const tooltip = d3.select(".tooltip");
 const width = window.innerWidth;
 const height = window.innerHeight;
 
-// Define projection and path
 const projection = d3.geoNaturalEarth1()
   .scale(width / 6)
   .translate([width / 2, height / 2]);
 
 const path = d3.geoPath().projection(projection);
 
-// Set up color scale
 const colorScale = d3.scaleSequential(d3.interpolateViridis).domain([0, 100]);
 
-// Sample Data (replace with your data) 
-// Add distributed lists
-// Static lists?
 const sampleData = [
  { country: "USA", value: 75 },
   { country: "Canada", value: 50 },
