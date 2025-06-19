@@ -7,7 +7,7 @@ body {
     overflow: hidden;
   }
   
-  /* Container to ensure full screen for the map */
+  /* full screen */
   #map-container {
     width: 100vw;
     height: 100vh;
@@ -62,7 +62,7 @@ nav {
 }
 
 select {
-  padding: 0.5rem;
+  padding: 0.5rem'
   border-radius: 5px;
   font-size: 1rem;
 }
