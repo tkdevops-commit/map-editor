@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>World Map Redesign</title>
+  <title>Interactive World Map</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="main.js" defer></script>
@@ -12,6 +12,11 @@
   <header>
     <nav>
       <h1>Interactive World Map</h1>
+      <label for="country-select" style="margin-left: 25px;">Choose a country:</label>
+      <select id="country-select" name="countries">
+        <option value="">-- Select a Country --</option>
+        <!-- Populated by JS -->
+      </select>
     </nav>
   </header>
 
@@ -25,19 +30,6 @@
     </section>
   </main>
 
-  <!-- Features List-->
-<nav-bar>
-  <header>
-  <nav>
-    <h1>Interactive World Map</h1>
-    <label for="country-select" style="margin-left: 25px;">Choose a country:</label>
-    <select id="country-select" name="countries">
-      <option value="">-- Select a Country --</option>
-      <!-- Countries pop JS -->
-    </select>
-  </nav>
-</header>
-</nav-bar>
   <footer>
     <p>© 2025 World Map Project</p>
   </footer>
