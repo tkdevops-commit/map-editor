@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Interactive World Map</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -11,8 +11,8 @@
 <body>
   <header>
     <nav>
-      <h1>Interactive World Map</h1>
-      <label for="country-select" style="margin-left: 25px;">Choose a country:</label>
+      <h1>🌍 Interactive World Map</h1>
+      <label for="country-select">Jump to:</label>
       <select id="country-select" name="countries">
         <option value="">-- Select a Country --</option>
         <!-- Populated by JS -->
@@ -22,7 +22,6 @@
 
   <main>
     <section id="map-section">
-      <div id="loading">Loading map...</div>
       <div id="map-container">
         <svg id="world-map" role="img" aria-label="World Map"></svg>
         <div class="tooltip" role="tooltip" aria-hidden="true"></div>
